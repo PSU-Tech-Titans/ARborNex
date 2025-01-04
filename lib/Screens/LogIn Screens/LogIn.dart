@@ -159,6 +159,7 @@ class _LoginScreenState extends State<LoginScreen> {
                               SnackBar(content: Text('Logging in...')),
                             );
                             // Add login logic here
+                             Navigator.pushNamed(context, '/home');
                           }
                         },
                         style: ElevatedButton.styleFrom(

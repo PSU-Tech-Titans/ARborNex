@@ -1,3 +1,4 @@
+import 'package:arbornex_app/Screens/main_screen.dart';
 import 'package:flutter/material.dart';
 
 import 'Screens/LogIn Screens/LogIn.dart';
@@ -18,6 +19,7 @@ class MyApp extends StatelessWidget {
         '/': (context) => SplashScreen(),
         '/login':(context) => LoginScreen(),
         '/signup': (context) => SignUpScreen(),
+        '/home': (context) => MainScreen(),
         //add this for Home 
       }
 
