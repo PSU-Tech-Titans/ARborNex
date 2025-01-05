@@ -64,7 +64,9 @@ class HomeScreen extends StatelessWidget {
         actions: [
           IconButton(
             icon: Icon(Icons.notifications, color: Colors.black),
-            onPressed: () {},
+            onPressed: () {
+               Navigator.pushNamed(context, '/profile');
+            },
           ),
           CircleAvatar(
             backgroundImage: AssetImage('assets/images/profile.png'),
@@ -242,7 +244,9 @@ class HireScreen extends StatelessWidget {
         actions: [
           IconButton(
             icon: Icon(Icons.notifications, color: Colors.black),
-            onPressed: () {},
+            onPressed: () {
+               Navigator.pushNamed(context, '/profile');
+            },
           ),
           CircleAvatar(
             backgroundImage: AssetImage('assets/images/profile.png'),
